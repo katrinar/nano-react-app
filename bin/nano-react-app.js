@@ -3,12 +3,12 @@ const chalk = require("chalk");
 const funcs = require("./funcs");
 
 const templates = {
-  js: `nano-react-app/template-js`,
-  ts: `nano-react-app/template-ts`,
+  js: `golivecosmos/template-js`,
+  // ts: `katrinar/template-ts`, TO DO: support typescript
 };
 
 const main = async () => {
-  console.log(`${chalk.bgMagenta(chalk.cyanBright("  NANO REACT APP  "))}`);
+  console.log(`${chalk.bgMagenta(chalk.cyanBright(" powered by NANO REACT APP, enhanced by COSMOS  "))}`);
 
   const args = require("yargs").argv;
   const projectLocation = args._[0];
